@@ -1,0 +1,31 @@
+
+.left {
+  font-size: 20px;
+  color: red;
+  background-color: aqua;
+}
+
+.right {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 30px;
+  padding:10px;
+  background-color: aqua;
+}
+
+.right a {
+  color: #18b920;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.right a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+#p{
+  background-color: red;
+  color: red;
+}

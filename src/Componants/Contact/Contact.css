@@ -1,0 +1,31 @@
+
+
+#contact {
+    padding: 20px;
+    background-color: #d85757;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  #contact h2 {
+    color: #333;
+  }
+  
+  #contact h3 {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .mobile {
+    font-weight: bold;
+  }
+  
+  .email {
+    font-style: italic;
+  }
+  
+  .social-media {
+    text-decoration: underline;
+  }
+  
