@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    align-items: center;
+    background: linear-gradient(90deg,blue, pink);
+    height: 80vh;
+}
+.leftside{
+    font-size: 2rem;
+    font-weight: 20;
+    color: azure;
+}
+.dx{
+    margin-top: 5px;
+}
+.dx img{
+    width: 20rem;
+    border-radius: 20rem;
+    height: 20rem;
+}

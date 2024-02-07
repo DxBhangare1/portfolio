@@ -7,6 +7,7 @@ import Projects from './Componants/Projects/Projects.js';
 import Contact from './Componants/Contact/Contact';
 import Intro from './Componants/Intro/Intro';
 import Footer from './Componants/Footer/Footer';
+import Home from './Componants/Home/Home';
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
 const App =()=>
 {
@@ -15,11 +16,12 @@ const App =()=>
     <BrowserRouter>
     <Header/>
     <Routes>
-      <Route path='/' element={<Intro/>}/>
+      <Route path='/Intro' element={<Intro/>}/>
       <Route path='/Contact' element={<Contact/>}/>
       <Route path='/Aboutme' element={<AboutMe/>}/>
       <Route path='/Projects' element={<Projects/>}/>
       <Route path='/Footer' element={<Footer/>}/>
+      <Route path='/' element={<Home/>}/>
     </Routes>
     </BrowserRouter>
     </>
